@@ -30,6 +30,11 @@ int main()
 		std::cout << c << std::endl;
 	}
 
-	Log("Hello World!");
-	std::cin.get();
+	int x = 5;
+	bool comparisonResult = x == 5;
+	if (comparisonResult)
+	{
+		Log("Hello World!");
+	}
+		std::cin.get();
 }
